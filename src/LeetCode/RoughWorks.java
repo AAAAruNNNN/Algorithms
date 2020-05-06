@@ -28,7 +28,11 @@ public class RoughWorks {
 
 	        //System.out.println("Sum : " + bigSum);
 	        System.out.println("Product : " + bigProduct);
-	        if(Math.ceil(3/2.) > 4)
-	        System.out.println(true);
+	        //if(Math.ceil(3/2.) > 4)
+	        System.out.println(1<<2);
+	        System.out.println(Integer.toBinaryString((1<<2)-1));
+	        System.out.println(6&4);
+	        
+	        
 		}
 }
