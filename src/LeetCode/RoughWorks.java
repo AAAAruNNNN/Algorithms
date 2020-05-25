@@ -1,6 +1,7 @@
 package LeetCode;
 
 import java.math.BigInteger;
+import java.util.Arrays;
 
 public class RoughWorks {
 		public static void main(String args[])
@@ -32,7 +33,12 @@ public class RoughWorks {
 	        System.out.println(1<<2);
 	        System.out.println(Integer.toBinaryString((1<<2)-1));
 	        System.out.println(6&4);
-	        
+	        int t = 't';
+	        if(t == 't')
+	        	System.out.println(true);
+	        System.out.println('a'+1);
+	        int[] vote = new int[5];
+	        System.out.println(Arrays.toString(vote));
 	        
 		}
 }
