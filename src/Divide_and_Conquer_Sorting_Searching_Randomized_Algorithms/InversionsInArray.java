@@ -1,8 +1,8 @@
 package Divide_and_Conquer_Sorting_Searching_Randomized_Algorithms;
-
+import java.util.Arrays;
 public class InversionsInArray {
 	public static void main(String args[]) {
-		System.out.println(sortAndCount(new int[] {5,4,1,6,7,2},0,5));
+		System.out.println(sortAndCount(new int[] {1,3,5,2,4,6},0,5));
 	}
 	
 	public static int sortAndCount(int[] nums, int l, int r) {
@@ -24,7 +24,7 @@ public class InversionsInArray {
 		int[] leftArray = new int[ln];
 		int[] rightArray = new int[rn];
 		for(int i = 0;i<ln;i++) {
-			leftArray[i] = nums[i];
+			leftArray[i] = nums[l+i];
 		}
 		for(int i=0;i<rn;i++) {
 			rightArray[i] = nums[mid+i+1];
@@ -45,7 +45,6 @@ public class InversionsInArray {
 		while(j<rn) {
 			nums[k++] = rightArray[j++];
 		}
-		
 		return count;
 	}
 }
