@@ -35,10 +35,17 @@ public class RoughWorks {
 	        System.out.println(6&4);
 	        int t = 't';
 	        if(t == 't')
-	        	System.out.println(true);
+	        	System.out.println("t is 't'" + true);
 	        System.out.println('a'+1);
 	        int[] vote = new int[5];
 	        System.out.println(Arrays.toString(vote));
+//	        
+//	        String L43 = "String";
+//	        String L44 = "String";
+//	        L44 = 
+	        char characterdigit = '1';
+	        if(characterdigit == '1')
+	        	System.out.println(Character.toUpperCase(characterdigit));
 	        
 		}
 }
